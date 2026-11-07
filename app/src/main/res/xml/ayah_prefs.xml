@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ayah.ui.widget.AyahPreferenceCategory android:title="@string/pref_category_theme" app:iconSpaceReserved="false">
+        <androidx.preference.ListPreference android:entries="@array/themes" android:title="@string/appearance" android:key="themeMode" android:defaultValue="default" android:dialogTitle="@string/appearance" android:entryValues="@array/theme_values" app:iconSpaceReserved="false" />
+        <com.ayah.ui.widget.AyahCheckBoxPreference android:title="@string/pref_theme_darker_night_mode" android:key="themeDarkerNightMode" android:summary="@string/pref_theme_darker_night_mode_summary" android:defaultValue="false" />
+    </com.ayah.ui.widget.AyahPreferenceCategory>
+    <com.ayah.ui.widget.AyahPreferenceCategory android:title="@string/pref_category_text_appearance" android:key="prefKeyCategoryTextAppearance" app:iconSpaceReserved="false">
+        <com.ayah.ui.widget.AyahCheckBoxPreference android:title="@string/pref_arabic" android:key="arabic" android:defaultValue="false" />
+        <com.ayah.ui.widget.AyahCheckBoxPreference android:title="@string/pref_section_highlighting" android:key="sectionHighlighting" android:defaultValue="false" />
+    </com.ayah.ui.widget.AyahPreferenceCategory>
+    <com.ayah.ui.widget.AyahPreferenceCategory android:title="@string/pref_category_other" android:key="prefKeyCategoryOther" app:iconSpaceReserved="false">
+        <com.ayah.ui.widget.AyahPreference android:title="@string/pref_reminders" android:key="reminders" />
+        <com.ayah.ui.widget.AyahPreference android:title="@string/pref_restore" android:key="importData" android:summary="@string/pref_restore_desc" />
+        <com.ayah.ui.widget.AyahPreference android:title="@string/pref_backup" android:key="exportData" android:summary="@string/pref_backup_desc" />
+        <com.ayah.ui.widget.AyahPreference android:title="@string/pref_about_ayah" android:key="about" />
+    </com.ayah.ui.widget.AyahPreferenceCategory>
+</PreferenceScreen>

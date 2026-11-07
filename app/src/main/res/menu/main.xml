@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@null" android:id="@id/search" android:title="@string/abc_searchview_description_search" app:actionViewClass="com.ayah.ui.widget.search.SearchViewWrapper" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@null" android:id="@id/action_today" android:title="@string/today" app:showAsAction="always" />
+    <item android:icon="@null" android:id="@id/settings" android:title="@string/settings" app:showAsAction="always" />
+</menu>

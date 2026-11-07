@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/secondary_list_selector" android:paddingLeft="16.0dp" android:paddingTop="8.0dp" android:paddingRight="16.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="16.0dp">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/secondary_text" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorColor="@color/tint" app:indicatorSize="24.0dp" app:trackColor="@color/separator" />
+    <ImageButton android:layout_gravity="center" android:id="@id/needs_download" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" app:tint="@color/tint" />
+    <ImageButton android:layout_gravity="center" android:id="@id/is_selected" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" app:tint="@color/tint" />
+</LinearLayout>

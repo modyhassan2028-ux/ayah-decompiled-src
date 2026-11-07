@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/tafsir_background" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_margin="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/downloading" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:paddingVertical="16.0dp" app:tint="@color/tint" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:gravity="center" android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorSize="24.0dp" />
+</FrameLayout>

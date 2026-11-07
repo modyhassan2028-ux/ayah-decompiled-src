@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/grouped_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:theme="@style/LibraryToolbar" android:layout_gravity="top" android:id="@id/toolbar" android:background="@color/secondary_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="2.0dp" app:navigationIcon="@null" app:titleTextColor="@color/main" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

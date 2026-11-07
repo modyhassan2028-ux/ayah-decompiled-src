@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hijri_months">
+        <item>Muharram</item>
+        <item>Safar</item>
+        <item>Rabi I</item>
+        <item>Rabi II</item>
+        <item>Jumada I</item>
+        <item>Jumada II</item>
+        <item>Rajab</item>
+        <item>Shaaban</item>
+        <item>Ramadan</item>
+        <item>Shawwal</item>
+        <item>Dhu al-Qidah</item>
+        <item>Dhu al-Hijjah</item>
+    </string-array>
+    <string-array name="sura_names">
+        <item>Al-Fātiḥah</item>
+        <item>Al-Baqarah</item>
+        <item>Āli ‘Imrān</item>
+        <item>An-Nisā’</item>
+        <item>Al-Mā’idah</item>
+        <item>Al-An‘ām</item>
+        <item>Al-A‘rāf</item>
+        <item>Al-Anfāl</item>
+        <item>At-Tawbah</item>
+        <item>Yūnus</item>
+        <item>Hūd</item>
+        <item>Yūsuf</item>
+        <item>Ar-Ra‘d</item>
+        <item>Ibrāhīm</item>
+        <item>Al-Ḥijr</item>
+        <item>An-Naḥl</item>
+        <item>Al-Isrā’</item>
+        <item>Al-Kahf</item>
+        <item>Maryam</item>
+        <item>Ṭā Hā</item>
+        <item>Al-Anbiyā’</item>
+        <item>Al-Ḥajj</item>
+        <item>Al-Mu’minūn</item>
+        <item>An-Nūr</item>
+        <item>Al-Furqān</item>
+        <item>Ash-Shu‘arā’</item>
+        <item>An-Naml</item>
+        <item>Al-Qaṣaṣ</item>
+        <item>Al-‘Ankabūt</item>
+        <item>Ar-Rūm</item>
+        <item>Luqmān</item>
+        <item>As-Sajdah</item>
+        <item>Al-Aḥzāb</item>
+        <item>Saba’</item>
+        <item>Fāṭir</item>
+        <item>Yā Sīn</item>
+        <item>Aṣ-Ṣāffāt</item>
+        <item>Ṣād</item>
+        <item>Az-Zumar</item>
+        <item>Ghāfir</item>
+        <item>Fuṣṣilat</item>
+        <item>Ash-Shūrā</item>
+        <item>Az-Zukhruf</item>
+        <item>Ad-Dukhān</item>
+        <item>Al-Jāthiyah</item>
+        <item>Al-Aḥqāf</item>
+        <item>Muḥammad</item>
+        <item>Al-Fatḥ</item>
+        <item>Al-Ḥujurāt</item>
+        <item>Qāf</item>
+        <item>Adh-Dhāriyāt</item>
+        <item>Aṭ-Ṭūr</item>
+        <item>An-Najm</item>
+        <item>Al-Qamar</item>
+        <item>Ar-Raḥmān</item>
+        <item>Al-Wāqi‘ah</item>
+        <item>Al-Ḥadīd</item>
+        <item>Al-Mujādilah</item>
+        <item>Al-Ḥashr</item>
+        <item>Al-Mumtaḥinah</item>
+        <item>Aṣ-Ṣaff</item>
+        <item>Al-Jumu‘ah</item>
+        <item>Al-Munāfiqūn</item>
+        <item>At-Taghābun</item>
+        <item>Aṭ-Ṭalāq</item>
+        <item>At-Taḥrīm</item>
+        <item>Al-Mulk</item>
+        <item>Al-Qalam</item>
+        <item>Al-Ḥāqqah</item>
+        <item>Al-Ma‘ārij</item>
+        <item>Nūḥ</item>
+        <item>Al-Jinn</item>
+        <item>Al-Muzzammil</item>
+        <item>Al-Muddaththir</item>
+        <item>Al-Qiyāmah</item>
+        <item>Al-Insān</item>
+        <item>Al-Mursalāt</item>
+        <item>An-Naba’</item>
+        <item>An-Nāzi‘āt</item>
+        <item>‘Abasa</item>
+        <item>At-Takwīr</item>
+        <item>Al-Infiṭār</item>
+        <item>Al-Muṭaffifīn</item>
+        <item>Al-Inshiqāq</item>
+        <item>Al-Burūj</item>
+        <item>Aṭ-Ṭāriq</item>
+        <item>Al-A‘lā</item>
+        <item>Al-Ghāshiyah</item>
+        <item>Al-Fajr</item>
+        <item>Al-Balad</item>
+        <item>Ash-Shams</item>
+        <item>Al-Layl</item>
+        <item>Ad̲h-D̲huḥā</item>
+        <item>Ash-Sharḥ</item>
+        <item>At-Tīn</item>
+        <item>Al-‘Alaq</item>
+        <item>Al-Qadr</item>
+        <item>Al-Bayyinah</item>
+        <item>Az-Zalzalah</item>
+        <item>Al-‘Ādiyāt</item>
+        <item>Al-Qāri‘ah</item>
+        <item>At-Takāthur</item>
+        <item>Al-‘Aṣr</item>
+        <item>Al-Humazah</item>
+        <item>Al-Fīl</item>
+        <item>Quraysh</item>
+        <item>Al-Mā‘ūn</item>
+        <item>Al-Kawthar</item>
+        <item>Al-Kāfirūn</item>
+        <item>An-Naṣr</item>
+        <item>Al-Masad</item>
+        <item>Al-Ikhlāṣ</item>
+        <item>Al-Falaq</item>
+        <item>An-Nās</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Automatic</item>
+    </string-array>
+</resources>

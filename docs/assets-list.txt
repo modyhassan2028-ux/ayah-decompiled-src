@@ -1,0 +1,12 @@
+assets/PublicSuffixDatabase.list
+assets/books/books.json
+assets/databases/ar-mokhtasar.db
+assets/databases/en-saheeh.db
+assets/databases/quran-text.db
+assets/dexopt/baseline.prof
+assets/dexopt/baseline.profm
+assets/hafs_smart_08.ttf
+assets/quran_numbers.ttf
+assets/quran_titles.ttf
+assets/realm/audio.realm
+assets/realm/quran.realm

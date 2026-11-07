@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppModalBase" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorControlActivated">@color/tint</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/quran_bars</item>
+        <item name="android:navigationBarColor">@color/quran_secondary_background</item>
+        <item name="android:windowLightStatusBar">@bool/is_light_mode</item>
+        <item name="android:windowLightNavigationBar">@bool/is_light_mode</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorControlActivated">@color/light_cursor</item>
+        <item name="colorPrimary">@color/tint</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorSurface">@color/background</item>
+    </style>
+    <style name="DayNightAlert" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">@color/grouped_background</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorAccent">@color/tint</item>
+    </style>
+</resources>

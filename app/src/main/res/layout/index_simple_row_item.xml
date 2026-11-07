@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/secondary_list_selector" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ayah.common.ui.view.AyahTextView android:textSize="@dimen/title_font_size" android:textStyle="bold" android:textColor="@color/text" android:id="@id/title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <com.ayah.common.ui.view.AyahTextView android:textSize="@dimen/title_font_size" android:textColor="@color/secondary_text" android:id="@id/page_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <com.ayah.common.ui.view.QuranAyahTextView android:textSize="@dimen/arabic_subtitle_font_size" android:textColor="@color/secondary_text" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/toolbar_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_with_title" />
+    </FrameLayout>
+    <View android:id="@id/shadow" android:background="@drawable/drop_shadow" android:layout_width="match_parent" android:layout_height="2.0dp" />
+    <FrameLayout android:id="@id/content" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

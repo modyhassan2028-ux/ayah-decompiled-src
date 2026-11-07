@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/abc_ic_clear_material" android:id="@id/remove_note" android:title="@string/remove_note" app:showAsAction="always" />
+    <item android:icon="@drawable/abc_ic_menu_share_mtrl_alpha" android:id="@id/share" android:title="@string/action_share" app:showAsAction="always" />
+    <item android:icon="@null" android:id="@id/ayah_text" android:title="@string/insert_ayah_text" app:showAsAction="always" />
+</menu>

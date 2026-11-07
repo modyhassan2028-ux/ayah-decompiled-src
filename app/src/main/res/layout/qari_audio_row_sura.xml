@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/secondary_grouped_background" android:layout_width="match_parent" android:layout_height="56.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/text" android:layout_gravity="center_vertical" android:id="@id/sura_name" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingHorizontal="16.0dp" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/download_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/download_icon" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="20.0dp" android:paddingTop="8.0dp" android:paddingRight="20.0dp" android:paddingBottom="8.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:paddingHorizontal="20.0dp" android:paddingVertical="8.0dp" app:tint="@color/tint" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progress" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" app:indicatorColor="@color/tint" app:indicatorSize="24.0dp" app:trackColor="@color/separator" />
+    </FrameLayout>
+</LinearLayout>
